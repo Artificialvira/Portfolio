@@ -1,4 +1,5 @@
 import {
+  resume,
   mobile,
   backend,
   creator,
@@ -38,7 +39,7 @@ export const navLinks = [
   {
     id: "cv",
     title: "Resume",
-    pdfUrl:'',
+    pdfUrl:resume,
   },
 ];
 
