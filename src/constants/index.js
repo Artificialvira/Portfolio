@@ -15,10 +15,7 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -38,6 +35,11 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "cv",
+    title: "Resume",
+    pdfUrl:'',
+  },
 ];
 
 const services = [
@@ -46,15 +48,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Cloud Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "C# Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AI Enthusiast",
     icon: creator,
   },
 ];
@@ -113,152 +115,117 @@ const technologies = [
     icon: docker,
   },
 ];
-
+/*
+Comprehensive drone tech understanding, including components and functionalities.
+Hands-on with drone software, AI-driven autonomy, and GIS integration.
+Collaborated within a team, honing communication and problem-solving skills.
+Explored real-world drone business applications and challenges.
+*/
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Developer",
+    company_name: "Airos",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "February 2023 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Hands-on with drone software, AI-driven autonomy, and GIS integration.",
+      "Collaborated within a team, honing communication and problem-solving skills.",
+      "Implementing responsive design and ensuring On-Field compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    "Arivarasan A excels in AI and DS, demonstrating deep understanding and commitment to excellence. His analytical skills and passion make him an outstanding student. I believe his capabilities will significantly contribute to any software development team.",
+    name: "Acacdemic Mentor",
+    designation: "Assistant Proffessor",
+    company: "Chennai Institute of Technology",
+  
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    "Collaborating with Arivarasan A was a pleasure. His coding prowess, attention to detail, and collaborative spirit stood out. His seamless integration of theoretical knowledge with practical implementation makes him an asset to any development team. Highly recommend for dedication and technical acumen.",
+    name: "Colleague",
+    designation: "Developer",
+    company: "Airosspace R&D",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    "In coding competitions, Arivarasan A showcased exceptional problem-solving skills and adaptability. His enthusiasm for challenges and solid grasp of algorithms set him apart. His performance reflects both technical prowess and determination to excel. I confidently endorse him as a promising Software Development Engineer.",
+    name: "Organizer",
+    designation: "Manger of unstop",
+    company: "Unstop",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "GCS Customization",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Customized open-source GCS named Mission Planner, rebranded, and expanded functionality, enhancing usability and features while maintaining the original framework's benefits.",
     tags: [
       {
-        name: "react",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Dotnet",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "gcs",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Artificialvira/SAE_Airos_GCS",
   },
   {
-    name: "Trip Guide",
+    name: "Hospital Management System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Hospitals on autopilot? My ASP.NET Core symphony makes it real. Appointments sing, records waltz, and patient care takes center stage. Staff dances with efficiency, while patients groove to seamless check-ins. Healthcare harmony, conducted by code.",
     tags: [
       {
-        name: "nextjs",
+        name: "Asp.net",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Webapp",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "SQLServer",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Artificialvira/HospitalManagementSystem",
+  },
+  {
+    name: "Mission Nothing",
+    description:
+      "Created the dynamic shooting game 'Mission Nothing' in Visual Studio Forms, featuring graphics with PicatureBox and game mechanics using Timer, and incorporated SQL for efficient player data storage, demonstrating skills in game development, UI design, and database integration.",
+    tags: [
+      {
+        name: "Windows Application",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Dotnet",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/Artificialvira/Mission-Nothing",
   },
 ];
 
