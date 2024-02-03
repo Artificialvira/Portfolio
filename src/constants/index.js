@@ -225,7 +225,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: carrent,
     source_code_link: "https://github.com/Artificialvira/Mission-Nothing",
   },
 ];
